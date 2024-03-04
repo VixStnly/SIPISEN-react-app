@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import LayoutDefault from '../../layouts/Default';
 
-function UserCreate() {
+function GuruCreate() {
   const [isLoading, setLoading] = useState(false);
   const navigate = useNavigate();
 
@@ -132,4 +132,4 @@ function UserCreate() {
   );
 }
 
-export default UserCreate
+export default GuruCreate

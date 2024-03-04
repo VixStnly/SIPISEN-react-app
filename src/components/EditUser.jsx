@@ -65,7 +65,7 @@ function UserEdit() {
         onSubmit: async (values) => {
             try {
                 setLoading(true);
-                await axios.put(`https://63a9bccb7d7edb3ae616b639.mockapi.io/users/${params.id}`, values);
+                await axios.put(`http://localhost:8000/api/admin/datateachers/${params.id}`, values);
                 setLoading(false);
                 navigate("/portal/user-list")
             } catch (error) {

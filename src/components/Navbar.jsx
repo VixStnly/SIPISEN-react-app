@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Api from '../api';
 import Cookies from 'js-cookie';
 import toast from 'react-hot-toast';
-
+import "./navbar.css"
 export default function Navbar() {
     const navigate = useNavigate();
 

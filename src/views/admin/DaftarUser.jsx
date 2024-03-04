@@ -86,23 +86,12 @@ export default function RolesIndex() {
             <div className="row">
               {hasAnyPermission(["roles.create"]) && (
                 <div className="col-md-3 col-12 mb-2">
-                  <Link
-                    to="/roles/create"
-                    className="btn btn-md btn-tertiary border-0 shadow w-100"
-                    type="button"
-                  >
-                    <i className="fa fa-plus-circle"></i> Add New
-                  </Link>
+                 
                 </div>
               )}
               <div className="col-md-9 col-12 mb-2">
                 <div className="input-group">
-                  <input
-                    type="text"
-                    className="form-control border-0 shadow"
-                    onChange={(e) => searchData(e)}
-                    placeholder="search here..."
-                  />
+                 
                   <span className="input-group-text border-0 shadow">
                     <i className="fa fa-search"></i>
                   </span>
@@ -117,8 +106,8 @@ export default function RolesIndex() {
               <div className="card-body">
                 <div className="table-responsive">
                   <table className="table table-bordered table-centered mb-0 rounded">
-                    <thead className="thead-dark">
-                      <tr className="border-0">
+                    <thead className="thead-dark" style={{backgroundColor:"black"}}>
+                      <tr className="border-0 bg-darky">
                         <th className="border-0" style={{ width: "5%" }}>
                           No.
                         </th>

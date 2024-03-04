@@ -25,8 +25,10 @@ import KehadiranSiswa from "../components/KehadiranSiswa.jsx"
 import View from "../components/UserView.jsx"
 import CreateSiswa from "../components/SiswaCreate.jsx"
 
-import Siswa from "../views/admin/DaftarSiswa.jsx"
+import Siswa from "../views/admin/siswa/DaftarSiswa.jsx"
 import Profile from "../components/Profile.jsx"
+import Kelas from "../views/admin/Jurusan/DaftarJurusan.jsx"
+import pplg from "../views/admin/Kelas/pplg.jsx"
 
 
 import Users from "../views/admin/DaftarUser.jsx"

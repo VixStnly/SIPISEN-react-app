@@ -4,11 +4,16 @@
   background-image: url(../../assets/img/smk.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 1px;
+  padding-bottom: 255px;
+  overflow-x: hidden;
+  overflow-y: hidden;
   padding-top: 60px;
 }
-
+.input-box{
+  padding-bottom: 20px;
+}
 .login-pages {
+ 
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
@@ -19,14 +24,23 @@
   width: 200px;
   text-align: center;
 }
+
+.text-login{
+  padding-bottom: 20px;
+  font-weight: bold;
+}
 .forms {
+  background: transparent;
+  backdrop-filter: blur(30px);
   box-shadow: #000000;
   border-radius: 5%;
   position: relative;
   z-index: 1;
-  background: white;
+ 
   max-width: 360px;
-  margin: 0 auto 100px;
+  margin-top: 27px;
+  margin-left: 540px;
+  text-align: center;
  padding-top: 20px;
  padding-left: 50px;
  padding-right: 50px;
@@ -38,7 +52,7 @@
 .forms input {
   font-family: FontAwesome, "Roboto", sans-serif;
   outline: 0;
-  background: #d60000;
+  background: #c5c4c4;
   width: 100%;
   border: 0;
   margin: 0 0 15px;
@@ -69,7 +83,7 @@ border-radius:30px;
 
 }
 .forms button:hover,.form button:focus {
-  background: #148f77;
+  background: #26a4c4;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   transform: translateY(-4px);
 }
